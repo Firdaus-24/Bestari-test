@@ -3,7 +3,7 @@
 @section('container')
     <div class="row">
         <div class="col-lg-12 text-center">
-            <h3>Sends</h3>
+            <h3>SENDS</h3>
         </div>
     </div>
     <div class="row">
@@ -11,14 +11,14 @@
             <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
-                        <th scope="col">Nama</th>
-                        <th scope="col">Phone</th>
-                        <th scope="col">Address</th>
-                        <th scope="col">Order ID</th>
-                        <th scope="col">Order Code</th>
-                        <th scope="col">No Resi</th>
-                        <th scope="col">Shipment Code</th>
-                        <th scope="col">Status</th>
+                        <th scope="col" class="bg-secondary text-light">Nama</th>
+                        <th scope="col" class="bg-secondary text-light">Phone</th>
+                        <th scope="col" class="bg-secondary text-light">Address</th>
+                        <th scope="col" class="bg-secondary text-light">Order ID</th>
+                        <th scope="col" class="bg-secondary text-light">Order Code</th>
+                        <th scope="col" class="bg-secondary text-light">No Resi</th>
+                        <th scope="col" class="bg-secondary text-light">Shipment Code</th>
+                        <th scope="col" class="bg-secondary text-light">Status</th>
                     </tr>
                 </thead>
                 <tbody>

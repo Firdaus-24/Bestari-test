@@ -28,10 +28,10 @@
             <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
-                        <th scope="col">No</th>
-                        <th scope="col">Nama</th>
-                        <th scope="col">Phone</th>
-                        <th scope="col">Address</th>
+                        <th scope="col" class="bg-secondary text-light">No</th>
+                        <th scope="col" class="bg-secondary text-light">Nama</th>
+                        <th scope="col" class="bg-secondary text-light">Phone</th>
+                        <th scope="col" class="bg-secondary text-light">Address</th>
                     </tr>
                 </thead>
                 <tbody>

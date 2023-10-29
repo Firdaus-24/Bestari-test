@@ -2,7 +2,7 @@
 
 @section('container')
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12 text-center">
             <h3>SOAL POINT 4</h3>
         </div>
     </div>
@@ -23,23 +23,27 @@
         </div>
         <div class="col-lg-6" id="soal2Point4">
             <div class="row mt-3">
-                <div class="col-lg">
+                <div class="col-lg-3">
                     <label>Array lama :</label>
-                    <label id="arrayLamaSoal2Point4"></label>
-
                 </div>
+                <div class="col-lg-3">
+                    <label id="arrayLamaSoal2Point4"></label>
+                </div>
+
             </div>
             <div class="row mt-3">
-                <div class="col-lg">
-
+                <div class="col-lg-3">
                     <label>Array Unique :</label>
+                </div>
+                <div class="col-lg-3">
                     <label id="arrayUniqueSoal2Point4"></label>
                 </div>
             </div>
             <div class="row mt-3">
-                <div class="col-lg">
-
+                <div class="col-lg-3">
                     <label>Sort Max :</label>
+                </div>
+                <div class="col-lg-3">
                     <label id="arraySortSoal2Point4"></label>
                 </div>
             </div>

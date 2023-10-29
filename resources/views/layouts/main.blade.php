@@ -20,27 +20,15 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <!-- Example split danger button -->
-                        <div class="btn-group">
-                            <button type="button" class="btn">Point 1</button>
-                            <button type="button" class="btn dropdown-toggle dropdown-toggle-split"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                <span class="visually-hidden">Toggle Dropdown</span>
-                            </button>
-                            <ul class="dropdown-menu">
-                                <a class="dropdown-item" aria-current="page" href="{{ url('customers') }}">Bagian 1</a>
-                                <li><a class="dropdown-item" href="{{ url('orders') }}">Bagian 2</a></li>
-                                <li><a class="dropdown-item" href="{{ route('send') }}">Bagian 3</a></li>
-                            </ul>
-                        </div>
 
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('customers') }}">Bagian 1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Point 2</a>
+                        <a class="nav-link" href="{{ url('orders') }}">Bagian 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Point 3</a>
+                        <a class="nav-link" href="{{ url('send') }}">Bagian 3</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('point4') }}">Point 4</a>
